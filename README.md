@@ -12,7 +12,7 @@ das curvas, que será feito mediante testes com o robô rodando em um circuito j
 1. Como o sistema funciona e pra que funciona;
 2. Clone na sua máquina o projeto e todas as dependências já estão configuradas;
 3. O banco de dados é um banco em memória para testes (caso queira acessar o banco de dados em memória, o caminho é "localhost:8080(modifique para a porta que você está usando)/h2-console".
-   Para acessar o login e senha estão no arquivo application properties.
+   Para acessar o login e senha estão no arquivo application-test.properties
 4. O projeto roda em Spring Boot;
 5. Suba a aplicação Spring;
 6. No Postman, no endpoint '/dados/processar' será uma requisição do tipo POST, você seleciona um arquivo txt com as informações que serão salvas. No body(corpo da requisição),
